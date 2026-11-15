@@ -1,0 +1,99 @@
+########## PAD 1 ##########
+      20      0.1786      0.1786      0.1799      0.1815
+      30      0.1772      0.1773      0.1786      0.1802
+      40      0.1770      0.1769      0.1776      0.1792
+
+Ordre d'arrivee (le plus proche en premier) : cand. 1 > cand. 2 > cand. 3 > cand. 4
+
+--- Diversite des 4 candidats (ecart moyen en dB par harmonique) ---
+    cand. 1 <-> cand. 2 :   10.6 dB
+    cand. 1 <-> cand. 3 :   15.2 dB
+    cand. 1 <-> cand. 4 :   12.9 dB
+    cand. 2 <-> cand. 3 :   14.6 dB
+    cand. 2 <-> cand. 4 :   12.6 dB
+    cand. 3 <-> cand. 4 :   11.7 dB
+
+--- Reperes ---
+    recette au hasard (200 tirages) : 0.4615  (mediane)
+    meilleure au hasard             : 0.2723
+    meilleur candidat cherche       : 0.1764
+    cible contre elle-meme          : 0.0000
+    cible contre silence            : 1.0411
+    (echelle : 0 = identique, 1.04 = rien du tout)
+
+--- Rendus ---
+    10_cible_PAD 1.wav
+    11_candidat1_perte0.176_PAD 1.wav
+    12_candidat2_perte0.176_PAD 1.wav
+    13_candidat3_perte0.178_PAD 1.wav
+    14_candidat4_perte0.178_PAD 1.wav
+
+--- Taille de l'etat ---
+    une recette = 27 flottants = 108 octets
+    la ROM correspondante        = 132960 octets (jamais stockee)
+########## PAD 2 ##########
+      20      0.1164      0.1161      0.1210      0.1200
+      30      0.1152      0.1149      0.1202      0.1191
+      40      0.1136      0.1144      0.1200      0.1191
+
+Ordre d'arrivee (le plus proche en premier) : cand. 1 > cand. 2 > cand. 4 > cand. 3
+
+--- Diversite des 4 candidats (ecart moyen en dB par harmonique) ---
+    cand. 1 <-> cand. 2 :    5.8 dB
+    cand. 1 <-> cand. 3 :    6.9 dB
+    cand. 1 <-> cand. 4 :   10.6 dB
+    cand. 2 <-> cand. 3 :    6.4 dB
+    cand. 2 <-> cand. 4 :    9.3 dB
+    cand. 3 <-> cand. 4 :   12.1 dB
+
+--- Reperes ---
+    recette au hasard (200 tirages) : 0.4204  (mediane)
+    meilleure au hasard             : 0.1939
+    meilleur candidat cherche       : 0.1127
+    cible contre elle-meme          : 0.0000
+    cible contre silence            : 0.6309
+    (echelle : 0 = identique, 0.63 = rien du tout)
+
+--- Rendus ---
+    10_cible_PAD 2.wav
+    11_candidat1_perte0.113_PAD 2.wav
+    12_candidat2_perte0.114_PAD 2.wav
+    13_candidat4_perte0.119_PAD 2.wav
+    14_candidat3_perte0.120_PAD 2.wav
+
+--- Taille de l'etat ---
+    une recette = 27 flottants = 108 octets
+    la ROM correspondante        = 132960 octets (jamais stockee)
+########## BASS 1 ##########
+      20      0.1406      0.0935      0.0912      0.0906
+      30      0.1392      0.0929      0.0908      0.0904
+      40      0.1383      0.0927      0.0901      0.0900
+
+Ordre d'arrivee (le plus proche en premier) : cand. 4 > cand. 3 > cand. 2 > cand. 1
+
+--- Diversite des 4 candidats (ecart moyen en dB par harmonique) ---
+    cand. 1 <-> cand. 2 :   18.6 dB
+    cand. 1 <-> cand. 3 :   16.4 dB
+    cand. 1 <-> cand. 4 :   24.6 dB
+    cand. 2 <-> cand. 3 :   13.0 dB
+    cand. 2 <-> cand. 4 :   12.0 dB
+    cand. 3 <-> cand. 4 :   14.7 dB
+
+--- Reperes ---
+    recette au hasard (200 tirages) : 0.3787  (mediane)
+    meilleure au hasard             : 0.1894
+    meilleur candidat cherche       : 0.0891
+    cible contre elle-meme          : 0.0000
+    cible contre silence            : 0.3424
+    (echelle : 0 = identique, 0.34 = rien du tout)
+
+--- Rendus ---
+    10_cible_BASS 1.wav
+    11_candidat4_perte0.089_BASS 1.wav
+    12_candidat3_perte0.090_BASS 1.wav
+    13_candidat2_perte0.092_BASS 1.wav
+    14_candidat1_perte0.138_BASS 1.wav
+
+--- Taille de l'etat ---
+    une recette = 27 flottants = 108 octets
+    la ROM correspondante        = 132960 octets (jamais stockee)

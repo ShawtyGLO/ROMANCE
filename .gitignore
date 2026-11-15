@@ -1,0 +1,37 @@
+# --- artefacts de compilation ---
+**/Builds/VisualStudio2022/x64/
+**/Builds/VisualStudio2022/Win32/
+**/Builds/VisualStudio2022/*.user
+**/JuceLibraryCode/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.vst3/
+
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- audio et projets DAW (lourds, se refabriquent) ---
+*.wav
+*.mp3
+*.flac
+*.aif
+*.aiff
+*.flp
+_ecoute/
+_inversion/
+_sauvegarde_vst3_*/
+
+# --- prototypes lourds ---
+_proto/rendus/
+_proto/_libs/
+corpus/
+
+# --- manuels d'editeurs tiers : sous copyright, jamais publies ---
+_proto/ROMANCEPROTO/manuels/
+*.pdf
+# --- modeles entraines (lourds) ---
+*.rnn

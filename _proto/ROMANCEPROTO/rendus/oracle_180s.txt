@@ -1,0 +1,31 @@
+=== TEMOIN : cible produite PAR LE MOTEUR (donc atteignable) ===
+moteur   : 27 parametres
+budget   : 180 s par candidat, 2 candidats
+verifie  : perte de la verite contre elle-meme = 0.000000
+
+candidat 1 : perte 0.5901 | ecart a la verite  15.2 dB | 11208 eval.
+candidat 2 : perte 0.2838 | ecart a la verite   9.7 dB | 10440 eval.
+
+--- Convergence ---
+   t (s)     cand. 1     cand. 2
+       2      0.6891      0.6870
+       5      0.6351      0.6769
+      10      0.6121      0.6297
+      20      0.6015      0.5852
+      30      0.5998      0.5291
+      45      0.5961      0.3557
+      60      0.5924      0.2894
+      90      0.5901      0.2838
+     120      0.5901      0.2838
+     180      0.5901      0.2838
+
+--- Verdict ---
+    perte atteignable (verite)      : 0.0000
+    recette au hasard (mediane)     : 1.0680
+    meilleure au hasard sur 200     : 0.7524
+    MEILLEUR CANDIDAT CHERCHE       : 0.2838
+    ecart de recette a la verite    : 9.7 dB par harmonique
+
+    Chemin parcouru vers la cible   : 73.4 %
+    -> La recherche NE retrouve PAS une cible pourtant atteignable.
+       C'est l'ALGORITHME ou la PERTE qu'il faut changer, pas le moteur.
