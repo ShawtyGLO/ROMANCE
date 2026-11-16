@@ -1,12 +1,17 @@
 # ROMANCE
 
-Rompleur d'époque à ROM générée, en C++ / JUCE. Nom provisoire.
+Synthétiseur digital dans l'esprit Rompleur d'époque à ROM générée, en C++ / JUCE. Nom provisoire.
 
 ## L'idée
 
-On glisse un son dans le plugin ; une recherche hors-ligne fabrique le matériau d'onde et les
-réglages qui le reproduisent. Au lieu de lire un échantillon, l'instrument reconstruit une
-table d'onde et les paramètres qui s'en approchent le mieux.
+Je souhaitais m'essayer à faire un synthé au comportement similaire à Pigments, Serum ou autres synthétiseurs numériques actuels, tout en ayant la possibilité de glisser un son dans le plugin pour le resynthétiser et pouvoir modifier celui-ci par la suite : 
+
+- une recherche resynthétise le son au plus proche, dans la limite de ses capacités. Au lieu de lire un échantillon, l'instrument reconstruit une table d'onde et les paramètres qui s'en approchent le mieux.
+
+Ce projet en est à ses débuts car c'est un sacré chantier ^^ ; je pense continuer à pousser l'idée dans le futur, en réduisant la portée de la V1, car les paramètres à améliorer sont trop nombreux actuellement. Le prototype est utilisable et assez intéressant soniquement, mais il est assez gourmand en CPU, l'UI/UX est encore très sommaire et de nombreux bugs ou imprécisions dans l'utilisation sont malheureusement présents.
+
+J'ai aussi voulu émuler la quantification et les limitations de reproduction et de fidélité sonores des machines des années 70 à 90 pour avoir une expérience « low fidelity » assumée, qui reste optionnelle.
+
 
 ## Contenu
 
